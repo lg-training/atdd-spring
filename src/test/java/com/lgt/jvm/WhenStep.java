@@ -11,7 +11,7 @@ public class WhenStep {
         this.blankWorld = blankWorld;
     }
 
-
+    @When("I invoke the create customer operation with the customer details")
     public void iInvokeTheCreateCustomerOperationWithTheCustomerDetails() {
         System.out.println("I invoke the create customer operation with the customer details");
     }

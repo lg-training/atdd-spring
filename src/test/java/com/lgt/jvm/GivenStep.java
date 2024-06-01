@@ -11,7 +11,7 @@ public class GivenStep {
         this.blankWorld = blankWorld;
     }
 
-
+    @Given("some customer details")
     public void someCustomerDetails() {
         blankWorld.setBaseUrl("https://www.google.com");
         System.out.println("some customer details");

@@ -10,6 +10,7 @@ public class ThenStep {
         this.blankWorld = blankWorld;
     }
 
+    @Then("the customer details should be persisted")
     public void theCustomerDetailsShouldBePersisted() {
         System.out.println(blankWorld.getBaseUrl());
         System.out.println("the customer details should be persisted");
