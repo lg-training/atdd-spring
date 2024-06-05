@@ -1,4 +1,4 @@
-package com.lgt.jvm;
+package com.lgt.jvm.support;
 
 
 import org.springframework.stereotype.Component;
